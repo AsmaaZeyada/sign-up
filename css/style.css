@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.w-50{
+    width: 50%;
+}
+.bg-22333c{
+    background-color: #22333c;
+}
+.bg-212529{
+    background-color: #212529;
+}
+h1{
+    color: #17a2b8;
+    font-size: 40px;
+    margin-bottom:8px ;
+}
+.smart-app{
+    width: 60%;
+    margin :10px auto;
+    padding: 40px 11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    background: #24353f;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin: 10px 0;
+    padding: 6px 12px ;
+    background-color: #22333c;
+    outline: none;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    color: white;
+
+}
+.login button{
+    margin: 20px 0;
+    font-size: 16px !important; 
+}
+input::placeholder{
+    color: rgb(211, 205, 205);
+    font-weight: lighter;
+}
+input:focus{
+    border-color:#48d2ee !important ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+
+.logo a {
+    font-size: 20px;
+
+}
+.logo a:hover {
+    text-decoration-line: none;
+
+}
+.home {
+    height: 80%;
+}
+.toggler-icon{
+    color: #ffffff80;
+}
+.border-ffffff80{
+    border-color: #ffffff80;
+}

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/resposive.css">
+     </head>
+    <body class=" bg-22333c ">
+        <div class="smart-app ">
+            <div class=" login shadow-lg">
+                <h1 class=" text-capitalize ">smart login system</h1>
+                <div action="" class="form d-flex flex-column" onsubmit="onload()">
+                    <input class="border border-1 rounded-2 " type="email" id="signEmail" placeholder="Enter your email">
+                    <input  class="border border-1 rounded-2 " type="password" id="signPass" placeholder="Enter your password">
+                    <div id="result-sign">
+                        <span></span>
+                    </div>
+                    <button id="submit" onclick="searchUser()" class="btn btn-outline-info text-decoration-none"> Login</button>
+                    <label for=""> Don’t have an account? <a href="sign-up.html">Sign Up</a></label>
+                </div>
+            </div>
+        </div>
+        <script  src="js/main.js"></script>
+</body>
+</html>

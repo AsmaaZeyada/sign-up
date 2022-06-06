@@ -1,0 +1,23 @@
+/* less than and = 576px  */
+@media screen and (max-width:575px){
+    .smart-app{
+        width: 95% !important;
+    }
+    .login{
+        width: 90%;
+       
+    }
+}
+/* less than 768px  and greater than = 576px  */
+@media screen and (min-width: 576px) and (max-width:767){
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px ) {
+
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and ( max-width: 1199px) { 
+
+}
